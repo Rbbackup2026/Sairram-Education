@@ -1,4 +1,7 @@
 import React from "react";
+import { FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 import {
   ArrowRight,
   MapPin,
@@ -16,9 +19,7 @@ import {
 function Footer() {
   return (
     <footer className="w-full bg-[#002741] text-white pt-16 pb-8 px-6">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-
-        
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">        
         <div className="-mt-4">
           <img
             src="/assets/navlogo.svg"
@@ -36,17 +37,28 @@ across 80+ locations in India, supported by
           </p>
         </div>
 <div>
-    <h4 className="text-[25px] text-[#FFFFFF] font-semibold mb-4 pl-[37px]">Info</h4>
-        <ul className="space-y-3">
-  {["About Us", "Courses", "Institutions", "Contact Us"].map((item, index) => (
-    <li
-      key={index}
-      className="flex items-center text-[15px] text-[#FFFFFF] font-medium transition"
-    >
-      <span className="flex items-center justify-center w-6 h-6  rounded-full mr-3">
-        <ArrowRight size={22} className="text-[#FFFFFF]" />
-      </span>
-      {item}
+  <h4 className="text-[25px] text-[#FFFFFF] font-semibold mb-4 pl-[37px]">
+    Info
+  </h4>
+
+ <ul className="space-y-3">
+  {[
+    { name: "About Us", link: "/about" },
+    { name: "Courses", link: "/course" },
+    { name: "Contact Us", link: "/contact" },
+    { name: "Blog", link: "/blog" },
+    { name: "Privacy Policy", link: "/privacy-policy" },
+  ].map((item, index) => (
+    <li key={index}>
+      <Link
+        to={item.link}
+        className="flex items-center text-[15px] text-[#FFFFFF] font-medium hover:text-gray-200 transition"
+      >
+        <span className="flex items-center justify-center w-6 h-6 rounded-full mr-3">
+          <ArrowRight size={22} className="text-[#FFFFFF]" />
+        </span>
+        {item.name}
+      </Link>
     </li>
   ))}
 </ul>
@@ -66,40 +78,72 @@ across 80+ locations in India, supported by
 </div>
 
 
-          <div className="flex items-center mb-3  text-[15px] text-[#FFFFFF] font-medium">
-            <Phone size={18} className="mr-3 " />
-            +91 98765 43210
-          </div>
+          <div className="flex   mb-3 text-[15px] text-[#FFFFFF] font-medium">
+            <div>
+  <Phone size={18} className="mr-3 mt-2" />
+  </div>
+  <div className="flex flex-col">
+  <a href="tel:+919146056767" className="underline mt-1">
+    9146056767 
+  </a>
+  <a href="tel:+918400092005" className="underline mt-1">
+     8400092005
+  </a>
+  <a href="tel:+917741004777" className="underline mt-1">
+     7741004777
+  </a>
+  
+  </div>
+  
+</div>
 
-          <div className="flex items-center  text-[15px] text-[#FFFFFF] font-medium">
-            <Mail size={18} className="mr-3 text-[15px] text-[#FFFFFF] font-medium" />
-            info@example.com
-          </div>
+<div className="flex items-center text-[15px] text-[#FFFFFF] font-medium">
+  <Mail size={18} className="mr-3" />
+  <a href="mailto:contact@sairameducation.in" className="hover:underline">
+    contact@sairameducation.in
+  </a>
+</div>
         </div>
 
-      <div className=" ">
-      <h4 className="text-[25px] text-white font-semibold mb-4">
-        Follow Us
-      </h4>
+      <div>
+  <h4 className="text-[25px] text-white font-semibold mb-4">
+    Follow Us
+  </h4>
 
-      <div className="flex space-x-4">
-        <a className="w-15 h-15">
-          <img src="/assets/face.svg" className="text-white text-[18px]" />
-        </a>
+  <div className="flex gap-4">
+    
+    {/* Facebook */}
+    <a
+      href="https://www.facebook.com/profile.php?id=100071132186898"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full hover:scale-110 transition"
+    >
+      <img src="/assets/fas.svg" className="w-10 h-10" alt="facebook" />
+    </a>
 
-        <a className="w-15 h-15 ">
-          <img src="/assets/linkd.svg" className="text-white text-[18px]" />
-        </a>
+    {/* YouTube */}
+    <a
+      href="https://www.youtube.com/@SairamEducationPune"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full  hover:scale-110 transition"
+    >
+      <img src="/assets/y.png" className="w-10 h-10" alt="Youtube" />
+    </a>
 
-        <a className="w-15 h-15 ">
-          <img src="/assets/insta.svg" className="text-white text-[18px]" />
-        </a>
+    {/* Instagram */}
+    <a
+      href="https://www.instagram.com/sairameducationpune/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-12 h-12 flex items-center justify-center rounded-full  hover:scale-110 transition"
+    >
+      <img src="/assets/int.png" className="w-10 h-10" alt="instagram" />
+    </a>
 
-        <a className="w-15 h-15 ">
-          <img src="/assets/goog.svg" className="text-white text-[16px]" />
-        </a>
-      </div>
-    </div>
+  </div>
+</div>
 
 
       </div>

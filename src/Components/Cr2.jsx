@@ -9,15 +9,15 @@ function Cr2() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-20">  
         <div className="md:w-1/2 relative">
           <img
-            src="/assets/cr4.svg" 
+            src="/assets/bb.png" 
             alt="Illustration"
             className="w-full rounded-xl shadow-lg"
           />
-          <img className="absolute -bottom-10 -right-2  md:-right-8 h-[200px] rounded-lg lg:h-[300px] mr-2" src="/assets/cr3.svg" alt="" />
+          <img className="absolute -bottom-10 -right-2  md:-right-8 h-[200px] rounded-lg lg:h-[300px] mr-2" src="/assets/bb1.png" alt="" />
         </div>
         <div className="w-full md:w-1/2">     
           <h2 className="text-[32px] font-bold text-[#2F327D] mb-6">
-            Engineering/B.Tech
+            BTech/BE
           </h2>
 
          
@@ -89,11 +89,11 @@ function Cr2() {
         </div>
         <div className="md:w-1/2 relative">
           <img
-            src="/assets/cr5.svg" 
+            src="/assets/bm.png" 
             alt="Illustration"
             className="w-full rounded-xl shadow-lg"
           />
-          <img className="absolute -bottom-10 -right-2  md:-right-8 h-[200px] rounded-lg lg:h-[300px] mr-2" src="/assets/cr6.svg" alt="" />
+          <img className="absolute -bottom-10 -right-2  md:-right-8 h-[200px] rounded-lg lg:h-[300px] mr-2" src="/assets/bm1.png" alt="" />
         </div>
       </div>
        <div className="max-w-7xl mt-[70px] mx-auto px-6 flex flex-col md:flex-row items-center gap-20">
@@ -101,11 +101,11 @@ function Cr2() {
         
         <div className="md:w-1/2 relative">
           <img
-            src="/assets/cr7.svg" 
+            src="/assets/mm.png" 
             alt="Illustration"
             className="w-full rounded-xl shadow-lg"
           />
-          <img className="absolute -bottom-10 -right-2  md:-right-8 h-[200px] lg:h-[300px] mr-2 rounded-lg" src="/assets/cr8.svg" alt="" />
+          <img className="absolute -bottom-10 -right-2  md:-right-8 h-[200px] lg:h-[300px] mr-2 rounded-lg" src="/assets/mm1.png" alt="" />
         </div>
         <div className="w-full md:w-1/2">     
           <h2 className="text-[32px] font-bold text-[#2F327D] mb-6">
@@ -182,15 +182,17 @@ function Cr2() {
               </li>
             ))}
           </ul>
+          <Link to="/contact-us">
            <button className="mt-8 text-[18px] p-3 px-8 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]">Know More</button>
+           </Link>
         </div>
         <div className="md:w-1/2 relative">
           <img
-            src="/assets/cr9.svg" 
+            src="/assets/pg.png" 
             alt="Illustration"
             className="w-full rounded-xl shadow-lg"
           />
-          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/cr10.svg" alt="" />
+          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/pg1.png" alt="" />
         </div>
       </div>
       </div>
@@ -198,11 +200,11 @@ function Cr2() {
     <div className="max-w-5xl mt-[80px] mx-auto  flex flex-col md:flex-row items-center gap-[50px]">
        <div className="md:w-1/2 relative">
           <img
-            src="/assets/cr11.svg" 
+            src="/assets/pm.png" 
             alt="Illustration"
             className="w-full rounded-xl shadow-lg"
           />
-          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/cr12.svg" alt="" />
+          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/pm1.png" alt="" />
         </div>
         <div className="w-full md:w-1/2 px-6">     
          
@@ -271,11 +273,11 @@ function Cr2() {
         </div>
         <div className="md:w-1/2 relative">
           <img
-            src="/assets/cr13.svg" 
+            src="/assets/ms.png" 
             alt="Illustration"
             className="w-full rounded-xl shadow-lg"
           />
-          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/cr14.svg" alt="" />
+          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/ms1.png" alt="" />
         </div>
       </div>
       </div>
@@ -312,11 +314,11 @@ function Cr2() {
         </div>
         <div className="md:w-1/2 relative">
           <img
-            src="/assets/cr15.svg" 
+            src="/assets/mt.png" 
             alt="Illustration"
             className="w-full rounded-xl shadow-lg"
           />
-          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/cr16.svg" alt="" />
+          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/mt1.png" alt="" />
         </div>
       </div>
       </div>
@@ -326,11 +328,11 @@ function Cr2() {
     <div className="max-w-5xl mt-[80px] mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
        <div className="w-full md:w-1/2 relative">
           <img
-            src="/assets/cr17.svg" 
+            src="/assets/mm.png" 
             alt="Illustration"
             className="w-full rounded-xl shadow-lg"
           />
-          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/cr18.svg" alt="" />
+          <img className="absolute -bottom-10 -right-2 md:-right-8 rounded-lg h-[200px] lg:h-[300px] mr-2" src="/assets/mm1.png" alt="" />
         </div>
         <div className="w-full md:w-1/2">   <h2 className="text-[32px] font-bold text-[#2F327D] mb-6">
            Medical

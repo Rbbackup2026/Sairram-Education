@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from "react-helmet-async";
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import Aheader from '../Components/Aheader'
@@ -8,17 +9,35 @@ import Att from '../Components/Att'
 import Review from '../Components/Review'
 import News from '../Components/News'
 
+
+
 function AboutUs() {
   return (
     <div>
+      <Helmet>
+              <title>
+                About Sairam Education Consultancy | Admission Experts India
+              </title>
+              <meta
+                name="description"
+                content="Learn about Sairam Education Consultancy, a trusted Pune-based admission and career counseling expert guiding students across medical, engineering & management."
+              />
+      
+              {/* Optional but Recommended */}
+              <meta name="robots" content="index, follow" />
+              <link
+          rel="canonical"
+          href="https://sairameducation.in/about"
+        />
+      </Helmet>
       <Nav/>
       <Aheader/>
        <section className="py-20">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-6">
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
             Who Are We ?
-          </h1>
+          </h2>
 
           <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
             Sairam Education & Consultancy Services is a Pune, Maharashtra based education consultancy committed to guiding students toward the right academic pathways. With a strong focus on structured counseling and transparent guidance, we support students across medical, management, and engineering streams in securing admissions that align with their academic goals and long-term aspirations.
@@ -39,7 +58,7 @@ Positioned as an education and admission consulting organization, Sairam Educati
 
 
     <img
-      src="/assets/abg1.svg"
+      src="/assets/wa.png"
       alt="Video Thumbnail"
       className="relative z-10 rounded-xl shadow-lg"
     />
@@ -52,16 +71,16 @@ Positioned as an education and admission consulting organization, Sairam Educati
           <div className="flex-1 flex justify-center">
   <div className="relative"> 
     <img
-      src="/assets/abg2.svg"
+      src="/assets/wd.png"
       alt="image"
       className="relative z-10"
     />
   </div>
 </div>
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#FFFFFF] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#FFFFFF] mb-4">
             What We Do ?
-          </h1>
+          </h2>
 
           <p className=" mb-4 text-[#FFFFFF] tracking-[0.02em]">
           At Sairam Education, we help students navigate one of the
@@ -94,16 +113,16 @@ student-focused, and grounded in practical insights.</p>
 
 
     <img
-      src="/assets/abg3.svg"
+      src="/assets/hs.png"
       alt="Video Thumbnail"
       className="relative z-10 rounded-xl shadow-lg"
     />
   </div>
 </div>
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
             How Sairam Education Started
-          </h1>
+          </h2>
 
           <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
            Sairam Education was established in 2006 with the objective of supporting students in making informed academic decisions. Founded by Ankit, the organization was built on the belief that the right guidance at the right time can significantly influence a student’s academic and professional future.
@@ -140,7 +159,7 @@ students and institutions.
 
   </div>
   <div className='flex justify-center mt-8 m-5'>
-  <img src="/assets/certiimg.svg" alt=""  className='shadow-2xl'/>
+  <img src="/assets/ce.png" alt=""  className='shadow-2xl'/>
   </div>
 </section>
 <Review/>

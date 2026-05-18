@@ -3,10 +3,28 @@ import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import News from '../Components/News'
 import { ChevronRight } from 'lucide-react'
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 function Medical() {
   return (
     <div>
+      <Helmet>
+        <title>
+          Medical Admission Guidance India | MBBS, MD Counselling
+        </title>
+        <meta
+          name="description"
+          content="Get expert medical counselling for MBBS, BDS, MD & more. Direct admission via merit, management & NRI quota in top medical colleges across India."
+        />
+        
+        {/* Optional but Recommended */}
+        <meta name="robots" content="index, follow" />
+         <link
+          rel="canonical"
+          href="https://sairameducation.in/medical"
+        />
+      </Helmet>
       <Nav/>
        <header className="w-full bg-[#49BBBD] py-[150px]  rouuded-xl md:rounded-b-[43%] shadow-xl">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
@@ -15,9 +33,11 @@ function Medical() {
           <h1 className="text-[52px] font-semibold text-[#FFFFFF] leading-tight mt-[60px] md:mt-0">
             Medical
           </h1>
+             <Link to="/contact-us">
          <button className="mt-8 bg-white/30 text-white px-8 py-3 rounded-full text-[18px] backdrop-blur-md transition">
   Book Your Free Consultation
 </button>
+</Link>
         </div>
         <div className="flex justify-center relative">
 </div>
@@ -26,34 +46,29 @@ function Medical() {
     <section className="py-20">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-6">
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
             Medical Counselling & Direct Admission Support
-          </h1>
-
+          </h2>
           <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
           Sairam Education & Consultancy Services provides structured medical counselling and admission guidance for students aspiring to build a career in medicine and allied health sciences. Our approach is focused on clarity, eligibility alignment, and realistic admission pathways, helping students and parents navigate complex counselling processes with confidence.
           </p>
           <br />
-          <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">We offer guidance for direct admissions, Institute Quota, and NRI quota seats, ensuring that students clearly understand available options, admission procedures, and institutional requirements. Our counselling is transparent, process-driven, and aligned with current admission frameworks.</p>
-
+          <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">We offer guidance for Institute Quota and NRI quota seats, ensuring that students clearly understand available options, admission procedures, and institutional requirements. Our counselling is transparent, process-driven, and aligned with current admission frameworks.</p>
         </div>
-
     <div className="flex justify-center">
   <div className="flex flex-col md:flex-row items-center gap-6 w-full md:w-[500px]">
 
-  
     <div>
       <img
-        src="/assets/cr20.svg"
+        src="/assets/cg.png"
         alt=""
         className="w-[280px] h-[480px] object-cover rounded-[100px]"
       />
     </div>
 
-  
     <div className="mt-5 md:mt-20 relative">
       <img
-        src="/assets/cr21.svg"
+        src="/assets/cg2.png"
         alt=""
         className="w-[280px] h-[380px] object-cover rounded-[100px]"
       />
@@ -69,22 +84,22 @@ function Medical() {
           <div className="flex-1 flex justify-center">
   <div className="relative"> 
     <img
-      src="/assets/female.svg"
+      src="/assets/cg3.png"
       alt="image"
       className="relative z-10"
     />
   </div>
 </div>
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#FFFFFF] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#FFFFFF] mb-4">
            What We Offer
-          </h1>
+          </h2>
 <p className='font-medium text-[16px] md:text-[20px] text-[#FFFFFF]'>Our medical counselling services are designed to support
 students at every stage of the admission journey</p>
            <ul className="mt-6">
             {[
               "One-to-one medical career counselling based on academic profile and eligibility",
-              "Guidance for direct admission, Institute Quota, and NRI quota seats",
+              "Guidance for Institute Quota and NRI quota seats",
               "Guidance for government, private, deemed universities, Institute Quota, and NRI quota admissions",
               "Support for counselling processes, option selection, and documentation",
               "Assistance with admission planning based on course preference and budget considerations",
@@ -138,7 +153,7 @@ allied health courses
   ></span>
 
   <img
-    src="/assets/bm1.svg"
+    src="/assets/um.png"
     alt="Video Thumbnail"
     className="relative z-10 rounded-xl shadow-lg"
   />
@@ -150,6 +165,7 @@ allied health courses
            <ul className="mt-6">
             {[
               "MBBS",
+              "BAMS",
               "BHMS",
               "BDS",
               "B.Pharm",
@@ -167,8 +183,9 @@ allied health courses
 </li>
             ))}
           </ul>
-          <button className='text-[18px] p-3 px-7 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]'>Read More</button>
-        
+           <Link to="/contact-us">
+          <button className='text-[18px] p-3 px-7 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]'>Know More</button>
+          </Link>        
         </div>
       </div>
 </section>
@@ -204,7 +221,9 @@ counselling and admission assistance
 </li>
             ))}
           </ul>
-        
+          <Link to="/contact-us">
+          <button className='text-[18px] p-3 px-7 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]'>Know More</button>
+          </Link>        
         </div>
           <div className="flex-1 flex justify-center">
   <div className="relative inline-block">
@@ -229,7 +248,7 @@ counselling and admission assistance
     ></span>
 
     <img
-      src="/assets/en3.svg"
+      src="/assets/em.png"
       alt="Video Thumbnail"
       className="relative z-10  shadow-lg"
     />
@@ -249,7 +268,7 @@ counselling and admission assistance
           <div className="relative rounded-xl pt-20 pb-8 px-6 text-center shadow-xl">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2">
               <img
-                src="/assets/en6.svg"
+                src="/assets/oc1.png"
                 alt=""
                 className="w-20 h-20 bg-[#5B72EE] p-4 rounded-full shadow-lg"
               />
@@ -266,7 +285,7 @@ counselling and admission assistance
           <div className="relative  rounded-xl pt-20 pb-8 px-6 mt-[20px] lg:mt-0 text-center shadow-xl">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 ">
               <img
-                src="/assets/en7.svg"
+                src="/assets/oc2.png"
                 alt=""
                 className="w-20 h-20 bg-[#00CBB8] p-4 rounded-full shadow-lg"
               />
@@ -282,7 +301,7 @@ counselling and admission assistance
           <div className="relative rounded-xl pt-20 pb-8 px-6 text-center shadow-xl mt-[20px] lg:mt-0">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 ">
               <img
-                src="/assets/en10.svg"
+                src="/assets/oc3.png"
                 alt=""
                 className="w-20 h-20 bg-[#29B9E7] p-4 rounded-full shadow-lg"
               />
@@ -369,10 +388,11 @@ pathways
        Get personalized medical counselling and explore suitable
 admission pathways with clarity and confidence.
       </p>
-
+<Link to="/contact-us">
       <button className="mt-2 md:-mt-[20px] px-8 py-3 bg-[#C30D22] text-white font-semibold rounded-full hover:bg-[#a90b1d] transition">
         Book Your Counselling Session
       </button>
+      </Link>
 
     </div>
   </div>

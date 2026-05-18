@@ -2,10 +2,31 @@ import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import Cr2 from '../Components/Cr2'
+import { Helmet } from "react-helmet-async";
+
+import { Link } from "react-router-dom";
 
 function Course() {
   return (
     <div>
+      <Helmet>
+        <title>
+          UG & PG Courses in India | Medical, Engineering & Management
+        </title>
+
+        <meta
+          name="description"
+          content="Explore UG & PG courses in medical, engineering & management. Get expert guidance to choose the right course and secure admission in top colleges across India.
+"
+        />
+
+        {/* Optional but Recommended */}
+        <meta name="robots" content="index, follow" />
+         <link
+          rel="canonical"
+          href="https://sairameducation.in/course"
+        />
+      </Helmet>
       <Nav/>
       <header className="w-full bg-[#49BBBD] py-[150px]  rouuded-xl md:rounded-b-[43%] shadow-xl">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
@@ -14,9 +35,11 @@ function Course() {
           <h1 className="text-[52px] font-semibold text-[#FFFFFF] leading-tight mt-[60px] md:mt-0">
             Courses
           </h1>
+          <Link to="/contact-us">
          <button className="mt-8 bg-white/30 text-white px-8 py-3 rounded-full text-[18px] backdrop-blur-md transition">
   Book Your Free Consultation
 </button>
+</Link>
         </div>
         <div className="flex justify-center relative">
 </div>
@@ -27,9 +50,9 @@ function Course() {
      <section className="py-20 ">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-6">
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
             List of Courses
-          </h1>
+          </h2>
 
           <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
             Looking to secure admission into your dream college and pursue the course you’ve always wanted? You need a thoughtfully selected range of UG and PG programs across reputed institutions, aligned with global academic standards and today’s industry needs.
@@ -44,7 +67,7 @@ We help with admission counseling to help students choose the right colleges and
   
     <div>
       <img
-        src="/assets/cr20.svg"
+        src="/assets/cg.png"
         alt=""
         className="w-[280px] h-[480px] object-cover rounded-[100px]"
       />
@@ -53,7 +76,7 @@ We help with admission counseling to help students choose the right colleges and
   
     <div className="mt-5 md:mt-20 relative">
       <img
-        src="/assets/cr21.svg"
+        src="/assets/cg2.png"
         alt=""
         className="w-[280px] h-[380px] object-cover rounded-[100px]"
       />

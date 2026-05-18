@@ -3,10 +3,30 @@ import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import { ChevronRight } from 'lucide-react'
 import News from '../Components/News'
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
 
 function BusinessManagement() {
   return (
     <div>
+      <Helmet>
+        <title>
+          MBA & BBA Admission Guidance India | Management Counselling
+        </title>
+
+        <meta
+          name="description"
+          content="Get expert management counselling for BBA, MBA & commerce courses. Direct admission via merit, management & NRI quota in top colleges across India."
+        />
+
+        {/* Optional but Recommended */}
+        <meta name="robots" content="index, follow" />
+         <link
+          rel="canonical"
+          href="https://sairameducation.in/management"
+        />
+      </Helmet>
       <Nav/>
          <header className="w-full bg-[#49BBBD] py-[150px]  rouuded-xl md:rounded-b-[43%] shadow-xl">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
@@ -15,9 +35,11 @@ function BusinessManagement() {
           <h1 className="text-[52px] font-semibold text-[#FFFFFF] leading-tight mt-[60px] md:mt-0">
             Business/ Management
           </h1>
+             <Link to="/contact-us">
          <button className="mt-8 bg-white/30 text-white px-8 py-3 rounded-full text-[18px] backdrop-blur-md transition">
   Book Your Free Consultation
 </button>
+</Link>
         </div>
         <div className="flex justify-center relative">
 </div>
@@ -28,15 +50,15 @@ function BusinessManagement() {
     <section className="py-20">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-6">
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
             Management Counselling & Direct Admission Support
-          </h1>
+          </h2>
 
           <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
-          Sairam Education & Consultancy Services provides structured counselling and admission guidance for students aspiring to build careers in business, management, and commerce. Our counselling framework is designed to help students choose suitable programs and institutions while understanding available admission pathways.
+          Sairam Education & Consultancy Services provides structured counselling and admission guidance for students aspiring to build careers in business, management and commerce. Our counselling framework is designed to help students choose suitable programs and institutions while understanding available admission pathways.
           </p>
           <br />
-          <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">We offer guidance for direct admissions, management quota, and NRI quota seats, ensuring a transparent and well-structured admission process across management institutions.</p>
+          <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">We offer admission guidance through merit quota, management quota and NRI quota seats, ensuring a transparent and well-structured admission process across management institutions.</p>
 
         </div>
 
@@ -46,7 +68,7 @@ function BusinessManagement() {
   
     <div>
       <img
-        src="/assets/cr20.svg"
+        src="/assets/cg.png"
         alt=""
         className="w-[280px] h-[480px] object-cover rounded-[100px]"
       />
@@ -55,7 +77,7 @@ function BusinessManagement() {
   
     <div className="mt-5 md:mt-20 relative">
       <img
-        src="/assets/cr21.svg"
+        src="/assets/cg2.png"
         alt=""
         className="w-[280px] h-[380px] object-cover rounded-[100px]"
       />
@@ -71,21 +93,21 @@ function BusinessManagement() {
           <div className="flex-1 flex justify-center">
   <div className="relative"> 
     <img
-      src="/assets/female.svg"
+      src="/assets/cg3.png"
       alt="image"
       className="relative z-10"
     />
   </div>
 </div>
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#FFFFFF] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#FFFFFF] mb-4">
            What We Offer
-          </h1>
+          </h2>
 <p className='font-medium text-[16px] md:text-[20px] text-[#FFFFFF]'>Our Management counselling services include</p>
            <ul className="mt-6">
             {[
               "One-to-one counselling for business, management, and commerce programs",
-              "Guidance for direct admission, management quota, and NRI quota seats",
+              "Guidance for admission through merit-based quota, management quota and NRI quota seats",
               "Support with application processes, documentation, and institutional coordination",
               "Program selection based on academic background and career objectives",
               "End-to-end admission support until confirmation and reporting",
@@ -137,7 +159,7 @@ function BusinessManagement() {
   ></span>
 
   <img
-    src="/assets/bm1.svg"
+    src="/assets/um.png"
     alt="Video Thumbnail"
     className="relative z-10 rounded-xl shadow-lg"
   />
@@ -166,7 +188,9 @@ function BusinessManagement() {
 </li>
             ))}
           </ul>
-          <button className='text-[18px] p-3 px-7 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]'>Read More</button>
+          <Link to="/contact-us">
+          <button className='text-[18px] p-3 px-7 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]'>Know More</button>
+          </Link>
         
         </div>
       </div>
@@ -201,7 +225,9 @@ function BusinessManagement() {
 </li>
             ))}
           </ul>
-        
+         <Link to="/contact-us">
+          <button className='text-[18px] p-3 px-7 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]'>Know More</button>
+          </Link>
         </div>
           <div className="flex-1 flex justify-center">
   <div className="relative inline-block">
@@ -226,7 +252,7 @@ function BusinessManagement() {
     ></span>
 
     <img
-      src="/assets/en3.svg"
+      src="/assets/em.png"
       alt="Video Thumbnail"
       className="relative z-10  shadow-lg"
     />
@@ -246,7 +272,7 @@ function BusinessManagement() {
           <div className="relative rounded-xl pt-20 pb-8 px-6 text-center shadow-xl">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2">
               <img
-                src="/assets/en6.svg"
+                src="/assets/oc1.png"
                 alt=""
                 className="w-20 h-20 bg-[#5B72EE] p-4 rounded-full shadow-lg"
               />
@@ -263,7 +289,7 @@ function BusinessManagement() {
           <div className="relative  rounded-xl pt-20 pb-8 px-6 mt-[20px] lg:mt-0 text-center shadow-xl">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 ">
               <img
-                src="/assets/en7.svg"
+                src="/assets/oc2.png"
                 alt=""
                 className="w-20 h-20 bg-[#00CBB8] p-4 rounded-full shadow-lg"
               />
@@ -279,7 +305,7 @@ function BusinessManagement() {
           <div className="relative rounded-xl pt-20 pb-8 px-6 text-center shadow-xl mt-[20px] lg:mt-0">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 ">
               <img
-                src="/assets/en10.svg"
+                src="/assets/oc3.png"
                 alt=""
                 className="w-20 h-20 bg-[#29B9E7] p-4 rounded-full shadow-lg"
               />
@@ -367,10 +393,11 @@ seats
        Explore suitable engineering programs and admission pathways
 with expert guidance.
       </p>
-
+<Link to="/contact-us">
       <button className="mt-2 md:-mt-[20px] px-8 py-3 bg-[#C30D22] text-white font-semibold rounded-full hover:bg-[#a90b1d] transition">
         Book Your Counselling Session
       </button>
+      </Link>
 
     </div>
   </div>

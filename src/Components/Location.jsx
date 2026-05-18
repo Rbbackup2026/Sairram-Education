@@ -8,7 +8,16 @@ function Location() {
 
       
         <div className="w-full   overflow-hidden shadow-lg">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d155155.02907166543!2d76.94531945171848!3d28.377055264942825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d228f446b3881%3A0x9d798b7f0e65fcbc!2sSector%2049%2C%20Gurugram%2C%20Haryana%20122018!5e1!3m2!1sen!2sin!4v1770359225221!5m2!1sen!2sin"  height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='rounded-xl w-full'></iframe>
+        <div className="w-full h-[400px]">
+  <iframe
+    className="w-full h-full rounded-lg"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.8954312567384!2d73.7713557!3d18.5728226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b93591e5ede7%3A0x3d84464787957e8d!2sNANDAN%20PRO%20BIZ!5e1!3m2!1sen!2sin!4v1774869486789!5m2!1sen!2sin"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
         </div>
 
     
@@ -29,12 +38,26 @@ Maharashtra, INDIA
           
           <div className="flex items-center mb-5">
             <img src="/assets/phon.svg" alt="" />
+            <div className="flex flex-wrap">
             <a
-              href="tel:+91 95453 56767"
+              href="tel:+919146056767"
               className="pl-4 text-[16px] md:text-[22px] font-medium text-[#002741]"
             >
-              +91 95453 56767
+              +919146056767
             </a>
+            <a
+              href="tel:+918400092005"
+              className="pl-4 text-[16px] md:text-[22px] font-medium text-[#002741]"
+            >
+              +918400092005
+            </a>
+            <a
+              href="tel:+917741004777"
+              className="pl-4 text-[16px] md:text-[22px] font-medium text-[#002741]"
+            >
+              +917741004777
+            </a>
+            </div>
           </div>
 
           

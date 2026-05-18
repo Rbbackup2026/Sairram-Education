@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Core() {
   return (
     <section className="py-20 bg-[#EEF4FF]">
@@ -64,7 +64,10 @@ function Core() {
        <div className="flex flex-col justify-center mt-4">
           <p className="text-center text-[#002741] text-[18px] md:text-[22px] font-medium px-3">Get a Free Counseling Session. Talk to our experts now!</p>
           <div className="flex justify-center">
+
+           <Link to="/contact-us">
           <button className="mt-4 w-[300px] text-[18px] p-3 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]">Book Your Slot</button>
+          </Link>
           </div>
           </div>
     </section>

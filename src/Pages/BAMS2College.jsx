@@ -1,6 +1,8 @@
 import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
+import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 
   const collegeData = [
   { sr: 1, name: "NALASOPARA AYURVED MEDICAL COLLEGE, VASAI, THANE", city: "Mumbai", fees: "1.85" },
@@ -25,6 +27,21 @@ import Footer from '../Components/Footer'
 function BAMS2College() {
   return (
     <div>
+      <Helmet>
+         <title>BAMS Colleges in Maharashtra | Direct Admission in Ayurveda
+        </title>
+
+        <meta
+          name="description"
+          content="Find top Ayurvedic colleges in Maharashtra. Get direct admission in BAMS with expert counselling and complete admission support."
+        />
+
+        <meta name="robots" content="index, follow" />
+         <link
+          rel="canonical"
+          href="https://sairameducation.in/course"
+        />
+      </Helmet>
       <Nav/>
       <header className="w-full bg-[#49BBBD] py-[150px]  md:rounded-b-[43%] shadow-xl">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
@@ -34,10 +51,11 @@ function BAMS2College() {
            BAMS  COLLEGES IN MAHARASHTRA
           </h1>
 
-
+<Link to="/contact-us">
          <button className="mt-8 bg-white/30 text-white px-8 py-3 rounded-full text-[18px] backdrop-blur-md transition">
   Book Your Free Consultation
 </button>
+</Link>
 
 
         </div>
@@ -100,10 +118,11 @@ function BAMS2College() {
        Get personalized medical counselling and explore suitable
 admission pathways with clarity and confidence.
       </p>
-
+<Link to="/contact-us">
       <button className="mt-2 md:-mt-[20px] px-8 py-3 bg-[#C30D22] text-white font-semibold rounded-full hover:bg-[#a90b1d] transition">
         Book Your Counselling Session
       </button>
+      </Link>
 
     </div>
   </div>

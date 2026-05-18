@@ -1,13 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Headerd() {
   return (
     <section className="py-20">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-6">
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
             About Sairam Education & Consultancy Services
-          </h1>
+          </h2>
 
           <p className=" mb-4 text-[#696984] tracking-[0.02em]">
             Sairam Education & Consultancy Services is a Pune based education consultancy working as a bridge between students and universities across India.
@@ -16,9 +16,11 @@ function Headerd() {
           <h4 className="text-[20px] font-semibold text-[#2F327D] mb-6">
             Carving Your Future with the Best in Education
           </h4>
+          <Link to="/contact-us">
           <button className="text-[#696984] underline underline-offset-4">
-  <a href="">Read More</a>
+  {/* <a href="">Read More</a> */}
 </button>
+</Link>
 
         </div>
 
@@ -34,7 +36,7 @@ function Headerd() {
 
 
     <img
-      src="/assets/hd.svg"
+      src="/assets/as.png"
       alt="Video Thumbnail"
       className="relative z-10 rounded-xl shadow-lg"
     />

@@ -3,9 +3,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function News() {
   const images = [
-    "/assets/news.svg",
-    "/assets/news.svg",
-    "/assets/news.svg",
+    "/assets/gl.png",
+    "/assets/gl.png",
+    "/assets/gl.png",
   ];
 
  const [current, setCurrent] = useState(0);

@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../Components/Nav'
 import Footer from '../Components/Footer'
 import Location from '../Components/Location'
+import { Link } from "react-router-dom";
 
 function Contactus() {
   return (
@@ -14,9 +15,11 @@ function Contactus() {
           <h1 className="text-[52px] font-semibold text-[#FFFFFF] leading-tight mt-[60px] md:mt-0">
             Contact Us
           </h1>
+          <Link to="/contact-us">
          <button className="mt-8 bg-white/30 text-white px-8 py-3 rounded-full text-[18px] backdrop-blur-md transition">
   Book Your Free Consultation
 </button>
+</Link>
         </div>
         <div className="flex justify-center relative">
 </div>
@@ -26,7 +29,7 @@ function Contactus() {
     </header>
     <Location/>
 
-        <section className="py-20 px-6 bg-[#EEF4FF] mb-12">
+        <section className="py-20 px-6 bg-[#EEF4FF]">
   <div className="max-w-4xl mx-auto text-center">
 
     <h2 className="text-[34px] font-bold text-[#002741] mb-3">
@@ -43,7 +46,7 @@ educational goals into reality!
 
 
       <a
-        href="tel:+919999999999"
+        href="tel:+919545356767"
         className="flex items-center justify-center gap-3 p-3 px-9 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]"
       >
         <img src="/assets/p1.svg" alt="Phone" className="w-[30px] h-[30px] text-center" />
@@ -51,7 +54,7 @@ educational goals into reality!
       </a>
 
       <a
-        href="mailto:info@example.com"
+        href="mailto:contact@sairameducation.in"
         className="flex items-center justify-center gap-3 text-[18px] px-9 p-3 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]"
       >
         <img src="/assets/e2.svg" alt="Email" className="w-[30px] h-[30px] text-center" />

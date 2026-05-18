@@ -14,6 +14,18 @@ import BDSCollege from "./Pages/BDSCollege";
 import NursingCollege from "./Pages/NursingCollege";
 import EngineeringCollege from "./Pages/EngineeringCollege";
 import BAMS2College from "./Pages/BAMS2College";
+import Contact from "./Pages/Contact";
+import GTMTracker from "./Components/GTMTracker";
+import Humanity from "./Pages/Humanity";
+import Laws from "./Pages/Laws";
+import CanonicalTag from "./Components/CanonicalTag";
+import NotFound from "./Pages/Notfound";
+import Services from "./Pages/Services";
+import Admission from "./Pages/Admission";
+import Privacypolicy from "./Pages/Privacypolicy";
+import Blog from "./Pages/Blog";
+import Blogdetails from "./Pages/Blogdetails";
+import NewsDetails from "./Pages/Newsdetails";
 
 
 function ScrollToTop() {
@@ -28,9 +40,12 @@ function ScrollToTop() {
 
 function App() {
   return (
+  <>
+    
     <Router>
+      <GTMTracker/>
+      <CanonicalTag/>
       <ScrollToTop /> 
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
@@ -40,13 +55,24 @@ function App() {
         <Route path="/management" element={<BusinessManagement />} />
         <Route path="/medical" element={<Medical />} />
         <Route path="/BAMS"   element={<BAMSCollege />} />
-        <Route path="/mba-colleges-in-maharashtra" element={<BPTCollege/>} />
+        <Route path="/bpt-colleges-in-maharashtra" element={<BPTCollege/>} />
         <Route path="/bds-colleges-in-maharashtra" element={<BDSCollege />} />
         <Route path="/nursing-college-in-maharastra" element={<NursingCollege/>} />
         <Route path="/engineering-colleges-in-maharashtra" element={<EngineeringCollege/>} />
         <Route path="bams-colleges-in-maharashtra" element={<BAMS2College />} />
-      </Routes>
+        <Route path="/contact-us" element={<Contact/>}/>
+        <Route path="/Humanities" element={<Humanity/>} />
+        <Route path="Law" element={<Laws/>} />
+        <Route path="*" element={<NotFound/>} />
+        <Route path="/service" element={< Services/>} />
+        <Route path="/admission" element={< Admission/>} />
+        <Route path="/privacy-policy" element={< Privacypolicy/>} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route path="/blog-details/:slug" element={<Blogdetails />} />   
+        <Route path="/news-details/:slug" element={<NewsDetails />} />   
+       </Routes>
     </Router>
+    </>
   );
 }
 

@@ -4,10 +4,30 @@ import Footer from '../Components/Footer'
 import Commoncouse from '../Components/Commoncouse'
 import { ChevronRight } from 'lucide-react'
 import News from '../Components/News'
+import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
 
 function Engineer() {
   return (
     <div>
+      <Helmet>
+        <title>
+          Engineering Admission Guidance India | B.Tech, M.Tech Counselling
+        </title>
+
+        <meta
+          name="description"
+          content="Get expert engineering counselling and admission guidance for B.Tech, M.Tech & more. Direct admission via merit, management & NRI quota across top colleges in India."
+        />
+
+        {/* Optional but Recommended */}
+        <meta name="robots" content="index, follow" />
+         <link
+          rel="canonical"uu
+          href="https://sairameducation.in/engineering"
+        />
+      </Helmet>
      <Nav/>
      <header className="w-full bg-[#49BBBD] py-[150px]  rouuded-xl md:rounded-b-[43%] shadow-xl">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
@@ -16,9 +36,11 @@ function Engineer() {
           <h1 className="text-[52px] font-semibold text-[#FFFFFF] leading-tight mt-[60px] md:mt-0">
             Engineering
           </h1>
+          <Link to="/contact-us">
          <button className="mt-8 bg-white/30 text-white px-8 py-3 rounded-full text-[18px] backdrop-blur-md transition">
   Book Your Free Consultation
 </button>
+</Link>
         </div>
         <div className="flex justify-center relative">
 </div>
@@ -29,9 +51,9 @@ function Engineer() {
       <section className="py-20">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-6">
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
             Engineering Counselling & Direct Admission Support
-          </h1>
+          </h2>
 
           <p className=" mb-4 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
            Sairam Education & Consultancy Services offers structured engineering counselling and admission guidance for students aspiring to pursue undergraduate and postgraduate engineering programs. Our counselling approach focuses on eligibility alignment, course suitability, and transparent admission pathways to help students make informed academic decisions.
@@ -47,7 +69,7 @@ function Engineer() {
   
     <div>
       <img
-        src="/assets/cr20.svg"
+        src="/assets/cg.png"
         alt=""
         className="w-[280px] h-[480px] object-cover rounded-[100px]"
       />
@@ -56,11 +78,11 @@ function Engineer() {
   
     <div className="mt-5 md:mt-20 relative">
       <img
-        src="/assets/cr21.svg"
+        src="/assets/cg2.png"
         alt=""
         className="w-[280px] h-[380px] object-cover rounded-[100px]"
       />
-      <img src="/assets/cr1.svg" className='absolute -top-[76px] left-[22px]' alt="" />
+      <img src="/assets/cg3.svg" className='absolute -top-[76px] left-[22px]' alt="" />
     </div>
 
   </div>
@@ -98,7 +120,7 @@ function Engineer() {
   ></span>
 
   <img
-    src="/assets/en2.svg"
+    src="/assets/eb.png"
     alt="Video Thumbnail"
     className="relative z-10 rounded-xl shadow-lg"
   />
@@ -107,9 +129,9 @@ function Engineer() {
 
 </div>
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
-           Engineering/BTech/BE
-          </h1>
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+           BTech/BE
+          </h2>
            <ul className="mt-6">
             {[
               "Computer Science Engineering (CSE)",
@@ -132,8 +154,9 @@ function Engineer() {
 </li>
             ))}
           </ul>
+          <Link to="/contact-us">
           <button className='text-[18px] p-3 px-7 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]'>Know More</button>
-        
+        </Link>
         </div>
       </div>
 </section>
@@ -150,9 +173,9 @@ function Engineer() {
   </div>
      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-8 mt-[43px]">
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#2F327D] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#2F327D] mb-4">
            M.Tech/ME
-          </h1>
+          </h2>
            <ul className="mt-6">
             {[
               "Computer Science Engineering (CSE)",
@@ -175,12 +198,12 @@ function Engineer() {
 </li>
             ))}
           </ul>
-        
+        <Link to="/contact-us">
+          <button className='text-[18px] p-3 px-7 bg-[#C30D22] rounded-full  text-[18px] font-semibold text-[#FFFFFF]'>Know More</button>
+        </Link>
         </div>
-          <div className="flex-1 flex justify-center">
+      <div className="flex-1 flex justify-center">
   <div className="relative inline-block">
-
-  
     <span
       className="absolute -top-[20px] -left-[20px] w-16 h-16
       bg-[#3FF1BB] z-20"
@@ -200,7 +223,7 @@ function Engineer() {
     ></span>
 
     <img
-      src="/assets/en3.svg"
+      src="/assets/em.png"
       alt="Video Thumbnail"
       className="relative z-10  shadow-lg"
     />
@@ -341,7 +364,7 @@ function Engineer() {
           <div className="relative rounded-xl pt-20 pb-8 px-6 text-center shadow-xl">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2">
               <img
-                src="/assets/en6.svg"
+                src="/assets/oc1.png"
                 alt=""
                 className="w-20 h-20 bg-[#5B72EE] p-4 rounded-full shadow-lg"
               />
@@ -358,7 +381,7 @@ function Engineer() {
           <div className="relative  rounded-xl pt-20 pb-8 px-6 mt-[20px] lg:mt-0 text-center shadow-xl">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 ">
               <img
-                src="/assets/en7.svg"
+                src="/assets/oc2.png"
                 alt=""
                 className="w-20 h-20 bg-[#00CBB8] p-4 rounded-full shadow-lg"
               />
@@ -374,7 +397,7 @@ function Engineer() {
           <div className="relative rounded-xl pt-20 pb-8 px-6 text-center shadow-xl mt-[20px] lg:mt-0">
             <div className="absolute -top-10 left-1/2 -translate-x-1/2 ">
               <img
-                src="/assets/en10.svg"
+                src="/assets/oc3.png"
                 alt=""
                 className="w-20 h-20 bg-[#29B9E7] p-4 rounded-full shadow-lg"
               />
@@ -461,10 +484,11 @@ seats
        Explore suitable engineering programs and admission pathways
 with expert guidance.
       </p>
-
+<Link to="/contact-us">
       <button className="mt-2 md:-mt-[20px] px-8 py-3 bg-[#C30D22] text-white font-semibold rounded-full hover:bg-[#a90b1d] transition">
         Book Your Counselling Session
       </button>
+      </Link>
 
     </div>
   </div>

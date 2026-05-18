@@ -6,9 +6,9 @@ function Acore() {
     { img: "/assets/core1.svg", bg: "#5B72EE", title: "Career Counseling", desc: "Helping students identify their aptitude, interests, and potential to choose the right course and college." },
     { img: "/assets/core2.svg", bg: "#00CBB8", title: "Admission Guidance", desc: "End to end support for admissions including college selection and application process assistance." },
     { img: "/assets/core3.svg", bg: "#29B9E7", title: "Overseas Education", desc: "Guidance for students planning to pursue education abroad with complete consultation support." },
-    { img: "/assets/core1.svg", bg: "#5B72EE", title: "Career Counseling", desc: "Helping students identify their aptitude, interests, and potential to choose the right course and college." },
-    { img: "/assets/core2.svg", bg: "#00CBB8", title: "Admission Guidance", desc: "End to end support for admissions including college selection and application process assistance." },
-    { img: "/assets/core3.svg", bg: "#29B9E7", title: "Overseas Education", desc: "Guidance for students planning to pursue education abroad with complete consultation support." },
+    // { img: "/assets/core1.svg", bg: "#5B72EE", title: "Career Counseling", desc: "Helping students identify their aptitude, interests, and potential to choose the right course and college." },
+    // { img: "/assets/core2.svg", bg: "#00CBB8", title: "Admission Guidance", desc: "End to end support for admissions including college selection and application process assistance." },
+    // { img: "/assets/core3.svg", bg: "#29B9E7", title: "Overseas Education", desc: "Guidance for students planning to pursue education abroad with complete consultation support." },
   ];
 
   const [index, setIndex] = useState(0);

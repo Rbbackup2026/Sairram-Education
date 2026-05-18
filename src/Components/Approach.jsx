@@ -1,27 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const blogData = [
   {
     id: 1,
-    img: "/assets/ap1.svg",
+    img: "/assets/oa1.png",
     title: "Planning & Strategy",
     desc: "Every project starts with detailed planning and strategy to ensure we meet deadlines and achieve the best results.",
   },
   {
     id: 2,
-    img: "/assets/ap2.svg",
+    img: "/assets/oa2.png",
     title: "Execution & Delivery",
     desc: "Our team executes projects efficiently while maintaining high standards of quality and attention to detail.",
   },
   {
     id: 3,
-    img: "/assets/ap3.svg",
+    img: "/assets/oa3.png",
     title: "Review & Improvement",
     desc: "We continuously review and improve our processes to provide better results and client satisfaction.",
   },
   {
     id: 4,
-    img: "/assets/ap4.svg",
+    img: "/assets/oa4.png",
     title: "Final Stage",
     desc: "We finalize every project ensuring excellence and client satisfaction.",
   },
@@ -59,7 +60,9 @@ function Approach() {
         ))}
       </div>
       <div className="w-full">
+        <Link to="/contact-us">
    <button className="block mx-auto p-3 px-6 bg-[#C30D22] font-semibold text-[18px] text-[#FFFFFF] rounded-full">Book Your FREE Consultation Today</button>
+   </Link>
    </div>
     </section>
   );

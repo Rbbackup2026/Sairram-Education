@@ -9,16 +9,16 @@ function Commoncouse() {
           <div className="flex-1 flex justify-center">
   <div className="relative"> 
     <img
-      src="/assets/female.svg"
+      src="/assets/cg3.png"
       alt="image"
       className="relative z-10"
     />
   </div>
 </div>
         <div className="flex-1">
-          <h1 className="text-[32px]  font-bold text-[#FFFFFF] mb-4">
+          <h2 className="text-[32px]  font-bold text-[#FFFFFF] mb-4">
            What We Offer
-          </h1>
+          </h2>
 <p className='font-medium text-[16px] md:text-[20px] text-[#FFFFFF]'>Our engineering counselling services include</p>
            <ul className="mt-6">
             {[
