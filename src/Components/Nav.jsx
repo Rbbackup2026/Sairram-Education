@@ -79,7 +79,7 @@ function Nav() {
       className="text-white transition-transform duration-300 group-hover:rotate-180"
     />
   </div>
-
+  
   <div className="absolute left-0 mt-4 w-[320px] bg-white rounded-xl shadow-2xl border border-gray-200
                   opacity-0 invisible translate-y-2
                   group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
@@ -132,6 +132,7 @@ function Nav() {
     </div>
   </div>
 </div>
+<Link to="/career" className="text-white text-[18px]" >Career</Link>
           <Link to="/contact-us" className="text-white text-[18px]">Book Your Slots</Link>
           {/* <Link to="/contact" className="text-white text-[18px]">Services</Link> */}
           <Link to="/contact" className="text-white text-[18px]">Contact Us</Link>

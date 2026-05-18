@@ -79,6 +79,44 @@ function EngineeringCollege() {
 
       </div>
     </header>
+     <section className="max-w-6xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10 mb-6 mt-8">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          Engineering Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Maharashtra is one of the top destinations for engineering admission in India due to its reputed universities, modern technical institutions, strong industry exposure, and excellent placement opportunities. The state has a large number of engineering colleges offering undergraduate and postgraduate programs across various specializations including Computer Science, Artificial Intelligence, Mechanical Engineering, Civil Engineering, Electronics, IT, and more.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Pune is widely known as the “Oxford of the East” and has become one of the most preferred cities for engineering education in India. The city is home to several prestigious engineering colleges known for academic excellence, modern infrastructure, research opportunities, industry collaborations, and campus placements.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+         Engineering colleges in Maharashtra provide students with practical learning exposure, internship opportunities, innovation-driven environments, and skill-based technical education. Students from across India prefer Maharashtra engineering colleges because of their strong academic reputation and career opportunities in top multinational companies and industries.
+        </p>
+          <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+         At Sairam Education & Consultancy Services, we help students explore suitable engineering colleges in Maharashtra based on their academic profile, entrance exam score, preferred specialization, budget, and career goals. Our experienced counselling team provides complete admission guidance and support throughout the admission process.
+        </p>
+      </section>
+
+      {/* SECTION 2 */}
+      <section className="max-w-6xl  mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          List of Engineering Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+    Below is the list of top engineering colleges in Maharashtra known for quality technical education, experienced faculty, advanced laboratories, placement support, and modern campus facilities. These colleges offer students strong academic foundations along with industry-oriented training and career development opportunities.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+        Students seeking admission in engineering colleges in Maharashtra can compare institutions based on infrastructure, placements, specialization availability, university affiliation, and location before selecting the right college for their future.
+        </p>
+            <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+      Start your engineering career journey with expert counselling and personalized admission assistance from Sairam Education & Consultancy Services.
+        </p>
+      </section>
     <section className="py-16  overflow-hidden">
       <div className="max-w-6xl mx-auto px-4">
         <div className="overflow-x-auto bg-white shadow-lg ">

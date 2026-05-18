@@ -69,6 +69,41 @@ Nursing Colleges in Maharashtra | Direct Admission & Counselling
 
       </div>
     </header>
+    <section className="max-w-6xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10 mb-6 mt-8">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          Nursing Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Maharashtra is one of the preferred states for nursing admission in India due to its strong healthcare infrastructure, reputed hospitals, and quality nursing education institutions. The state has several government, private, minority, and university-affiliated nursing colleges that provide excellent academic training along with practical clinical exposure.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Students from across India choose nursing colleges in Maharashtra because of better internship opportunities, hospital-based training, experienced faculty, and strong career prospects in India as well as abroad. Major cities like Mumbai, Pune, Nagpur, Navi Mumbai, Nashik, Aurangabad, Kolhapur, Jalgaon, Ratnagiri, and Sindhudurg have some of the best nursing colleges in Maharashtra.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+         Nursing colleges in Maharashtra offer students exposure to real-time healthcare environments through affiliated hospitals and medical institutions. After completing nursing courses, students can pursue careers in hospitals, ICUs, community healthcare centres, rehabilitation centres, research organizations, and international healthcare sectors.
+        </p>
+          <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+         At Sairam Education & Consultancy Services, we help students secure admission in suitable nursing colleges in Maharashtra based on their academic profile, preferred location, budget, and career goals. Our counselling team provides complete admission assistance and guidance throughout the admission process.
+        </p>
+      </section>
+
+      {/* SECTION 2 */}
+      <section className="max-w-6xl  mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          List of Nursing Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+     Below is the list of top nursing colleges in Maharashtra known for quality education, clinical training, experienced faculty, modern laboratories, and hospital exposure. Students can compare colleges based on infrastructure, city preference, training facilities, and academic reputation before selecting the right nursing college for admission.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+        Start your healthcare career journey with expert counselling and personalized admission support from Sairam Education & Consultancy Services.
+        </p>
+      </section>
      <section className="py-16  overflow-hidden">
       <div className="max-w-6xl mx-auto px-4">
         <div className="overflow-x-auto bg-white shadow-lg ">

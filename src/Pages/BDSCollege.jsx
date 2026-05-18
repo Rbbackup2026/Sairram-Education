@@ -59,6 +59,42 @@ BDS Colleges in Maharashtra | Direct Admission in Dental Colleges
 
       </div>
     </header>
+     <section className="max-w-6xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10 mb-6 mt-8">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          BDS Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Bachelor of Dental Surgery (BDS) is one of the most sought-after medical courses for students aspiring to build a successful career in dentistry and oral healthcare. Maharashtra is considered one of the top destinations for BDS admission in India due to its reputed dental colleges, advanced clinical infrastructure, and quality academic environment.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          The state is home to several well-known private, deemed, and university-affiliated dental colleges that provide excellent academic training, practical exposure, modern laboratories, and clinical experience. Cities like Pune, Navi Mumbai, Kolhapur, Sangli, Wardha, Karad, Aurangabad, and Loni have some of the best BDS colleges in Maharashtra, attracting students from across India every year.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+         At Sairam Education & Consultancy Services, we help students explore suitable BDS colleges in Maharashtra based on their NEET score, budget, preferred city, and career goals. Our experienced counselling team provides complete admission guidance and support throughout the admission process.
+        </p>
+      </section>
+
+      {/* SECTION 2 */}
+      <section className="max-w-6xl  mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          List of Bachelor of Dental Surgery (BDS) Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Below is the list of top BDS colleges in Maharashtra offering quality dental education, clinical training, internship opportunities, and modern infrastructure. These colleges are recognized for their academic excellence and practical exposure in the field of dentistry.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+         Students planning to pursue a career in dental sciences can compare colleges based on location, university affiliation, infrastructure, fees, and clinical exposure before selecting the right college for admission.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Start your dental career journey with expert admission counselling and personalized guidance from Sairam Education & Consultancy Services.
+        </p>
+      </section>
     <section className="py-16  overflow-hidden">
       <div className="max-w-6xl mx-auto px-4">
         <div className="overflow-x-auto bg-white shadow-lg ">

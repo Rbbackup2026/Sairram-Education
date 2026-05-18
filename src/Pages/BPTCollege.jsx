@@ -79,6 +79,59 @@ BPT Colleges in Maharashtra | Direct Admission & Guidance
 
       </div>
     </header>
+     <section className="max-w-6xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10 mb-6 mt-8">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          BPT Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Bachelor of Physiotherapy (BPT) has become one of the most preferred healthcare
+          courses among students looking to build a rewarding career in rehabilitation,
+          physiotherapy, sports medicine, and patient care. Maharashtra is considered one
+          of the top destinations for BPT admission in India due to its reputed medical
+          universities, advanced healthcare infrastructure, and wide range of government
+          and private physiotherapy colleges.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          The state offers excellent academic exposure, clinical training opportunities,
+          and internship programs for students pursuing physiotherapy education. Cities
+          like Mumbai, Pune, Navi Mumbai, Nagpur, and Nashik are home to some of the best
+          BPT colleges in Maharashtra, attracting students from across the country every year.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          At Sairam Education & Consultancy Services, we help students explore suitable
+          BPT colleges in Maharashtra based on their academic profile, budget, preferred
+          city, and admission requirements. Our team provides complete admission guidance,
+          counselling support, and assistance throughout the admission process.
+        </p>
+      </section>
+
+      {/* SECTION 2 */}
+      <section className="max-w-6xl  mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          List of Bachelor of Physiotherapy (BPT) Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Below is the list of top BPT colleges in Maharashtra including colleges located
+          in Mumbai, Pune, Navi Mumbai, Nagpur, and other major cities. These colleges are
+          known for quality education, practical training, experienced faculty, and modern
+          physiotherapy facilities.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Students seeking admission in Bachelor of Physiotherapy (BPT) courses can compare
+          colleges based on location, infrastructure, academic reputation, and career
+          opportunities before making their final decision.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Start your medical and healthcare career journey with expert admission guidance
+          and personalized counselling support from Sairam Education & Consultancy Services.
+        </p>
+      </section>
      <section className="py-16  overflow-hidden">
       <div className="max-w-6xl mx-auto px-4">
         <div className="overflow-x-auto bg-white shadow-lg ">

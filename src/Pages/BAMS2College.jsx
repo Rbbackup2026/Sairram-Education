@@ -65,6 +65,44 @@ function BAMS2College() {
 
       </div>
     </header>
+    <section className="max-w-6xl mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10 mb-6 mt-8">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          BAMS Colleges in Maharashtra (List)
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+         Maharashtra is one of the leading states for BAMS admission in India due to its reputed Ayurvedic colleges, experienced faculty, and growing demand for traditional and holistic healthcare education. The state has several well-established Ayurvedic medical colleges offering quality education, practical clinical exposure, and research opportunities in the field of Ayurveda.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+          Bachelor of Ayurvedic Medicine and Surgery (BAMS) is becoming increasingly popular among students who wish to build a career in Ayurveda, natural healing, wellness, and integrative healthcare. Maharashtra offers students access to modern Ayurvedic hospitals, research centres, internship opportunities, and clinical training facilities across major cities like Mumbai, Pune, Kolhapur, Sangli, and Nagpur.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+        BAMS colleges in Maharashtra focus on both traditional Ayurvedic knowledge and modern medical sciences, helping students gain practical experience in diagnosis, treatment, herbal medicine, Panchakarma therapy, and patient care. Graduates can pursue careers as Ayurvedic doctors, wellness consultants, researchers, medical officers, or healthcare entrepreneurs.
+        </p>
+          <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+         At Sairam Education & Consultancy Services, we help students explore suitable BAMS colleges in Maharashtra based on their NEET score, academic profile, preferred city, budget, and career goals. Our counselling team provides complete admission guidance and personalized support throughout the admission process.
+        </p>
+      </section>
+
+      {/* SECTION 2 */}
+      <section className="max-w-6xl  mx-auto bg-white rounded-2xl shadow-md p-6 md:p-10">
+        <h2 className="text-[20px] lg:text-[32px] font-bold text-[#002741] mb-4">
+          List of BAMS Colleges in Maharashtra
+        </h2>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+    Below is the list of top BAMS colleges in Maharashtra known for quality Ayurvedic education, clinical training, experienced faculty, modern infrastructure, and hospital exposure. These colleges provide students with strong academic foundations along with practical healthcare experience in Ayurveda and alternative medicine.
+        </p>
+
+        <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+        Students seeking admission in BAMS colleges in Maharashtra can compare institutions based on infrastructure, hospital facilities, city preference, academic reputation, and internship opportunities before selecting the right college for their future.
+        </p>
+            <p className="text-gray-700 font-Regular text-[16px] md:text-[18px] text-[#696984] tracking-[0.02em]">
+      Start your Ayurvedic medical career journey with expert counselling and personalized admission assistance from Sairam Education & Consultancy Services.
+        </p>
+      </section>
     <section className="py-16  overflow-hidden">
       <div className="max-w-6xl mx-auto px-4">
         <div className="overflow-x-auto bg-white shadow-lg ">

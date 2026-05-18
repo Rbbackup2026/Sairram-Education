@@ -26,6 +26,8 @@ import Privacypolicy from "./Pages/Privacypolicy";
 import Blog from "./Pages/Blog";
 import Blogdetails from "./Pages/Blogdetails";
 import NewsDetails from "./Pages/Newsdetails";
+import Career from "./Pages/Career";
+import Marquee from "./Components/Marquee";
 
 
 function ScrollToTop() {
@@ -46,6 +48,7 @@ function App() {
       <GTMTracker/>
       <CanonicalTag/>
       <ScrollToTop /> 
+      <Marquee />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
@@ -70,6 +73,7 @@ function App() {
         <Route path="/blog" element={<Blog/>} />
         <Route path="/blog-details/:slug" element={<Blogdetails />} />   
         <Route path="/news-details/:slug" element={<NewsDetails />} />   
+        <Route path="/career"  element={<Career />} />
        </Routes>
     </Router>
     </>

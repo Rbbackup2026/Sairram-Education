@@ -13,6 +13,7 @@ import Instruction from '../Components/Instruction'
 import Testinomials from '../Components/Testinomials'
 import News from '../Components/News'
 import Footer from '../Components/Footer'
+import Marquee from '../Components/Marquee';
 
 function Home() {
   return (
