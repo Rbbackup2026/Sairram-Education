@@ -21,16 +21,9 @@ function Blog() {
       content: "Full content of blog 2...",
       slug:"what-is-direct-admission-in-india-a-complete-guide-for-students",
     },
+ 
     {
       id: 3,
-      title: "Low Score in CAT? Here’s What You Can Still Do",
-      desc: "Every year, lakhs of students appear for the Common Admission Test with the hope of getting into top B-schools like the Indian Institutes of Management.",
-      img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-      content: "Full content of blog 3...",
-      slug:"low-score-in-cat-heres-what-you-can-still-do",
-    },
-    {
-      id: 4,
       title: "How Students Secure Seats Through Management Quota in India",
       desc: "For many students in India, getting into a good college feels like a race decided by a single exam.",
       img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c",

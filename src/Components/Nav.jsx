@@ -132,10 +132,179 @@ function Nav() {
     </div>
   </div>
 </div>
-<Link to="/career" className="text-white text-[18px]" >Career</Link>
+
+<div className="relative group">
+
+  {/* Parent */}
+  <div className="flex items-center gap-2 cursor-pointer select-none">
+    
+    <Link
+      to="/contact"
+      className="text-white text-[18px]"
+    >
+      MBBS 2026
+    </Link>
+
+    <ChevronDown
+      size={18}
+      className="text-white transition-transform duration-300 group-hover:rotate-180"
+    />
+  </div>
+
+  {/* Dropdown */}
+  <div className="absolute top-10 left-0 bg-white text-black rounded-md shadow-lg w-[320px] z-50
+                  opacity-0 invisible translate-y-2
+                  group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
+                  transition-all duration-300">
+
+  <Link
+  to="/book-slot"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  MBBS Admission in Chhattisgarh
+</Link>
+
+<Link
+  to="/mbbs-karnataka"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  MBBS Admission in Karnataka
+</Link>
+
+<Link
+  to="/book-slot"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  MBBS Admission in Madhya Pradesh
+</Link>
+
+<Link
+  to="/career"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  MBBS Admission in Maharashtra
+</Link>
+
+<Link
+  to="/book-slot"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  MBBS Admission in Rajasthan
+</Link>
+
+<Link
+  to="/book-slot"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  MBBS Admission in Uttar Pradesh
+</Link>
+  </div>
+</div>
+<div className="relative group">
+
+  {/* Parent */}
+  <div className="flex items-center gap-2 cursor-pointer select-none">
+    
+    <Link
+      to="/contact"
+      className="text-white text-[18px]"
+    >
+      B-Tech 2026
+    </Link>
+
+    <ChevronDown
+      size={18}
+      className="text-white transition-transform duration-300 group-hover:rotate-180"
+    />
+  </div>
+
+  {/* Dropdown */}
+  <div className="absolute top-10 left-0 bg-white text-black rounded-md shadow-lg w-[320px] z-50
+                  opacity-0 invisible translate-y-2
+                  group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
+                  transition-all duration-300">
+
+    <Link
+  to="/contact-us"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  Admission in Engineering, Pune
+</Link>
+
+<Link
+  to="/contact-us"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  Admission in Engineering, Banglore
+</Link>
+
+<Link
+  to="/contact-us"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  Admission in Engineering, Chhenai
+</Link>
+
+<Link
+  to="/contact-us"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  Admission in Engineering, Delhi & Noida
+</Link>
+
+<Link
+  to="/contact-us"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  Admission in Engineering, Mumbai
+</Link>
+
+  </div>
+</div>
+{/* <Link to="/career" className="text-white text-[18px]" >Career</Link>
           <Link to="/contact-us" className="text-white text-[18px]">Book Your Slots</Link>
-          {/* <Link to="/contact" className="text-white text-[18px]">Services</Link> */}
-          <Link to="/contact" className="text-white text-[18px]">Contact Us</Link>
+          <Link to="/contact" className="text-white text-[18px]">Contact Us</Link> */}
+
+           <div className="relative group">
+
+  {/* Parent */}
+  <div className="flex items-center gap-2 cursor-pointer select-none">
+    
+    <Link
+      to="/contact"
+      className="text-white text-[18px]"
+    >
+      Contact Us
+    </Link>
+
+    <ChevronDown
+      size={18}
+      className="text-white transition-transform duration-300 group-hover:rotate-180"
+    />
+  </div>
+
+  {/* Dropdown */}
+  <div className="absolute top-10 left-0 bg-white text-black rounded-md shadow-lg w-44 z-50
+                  opacity-0 invisible translate-y-2
+                  group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
+                  transition-all duration-300">
+
+   <Link
+  to="/contact-us"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  Book Your Slots
+</Link>
+
+<Link
+  to="/career"
+  className="block px-5 py-3 text-[15px] text-gray-700 hover:bg-gray-100"
+>
+  Career
+</Link>
+
+  </div>
+</div>
 
         </div>
 
@@ -173,8 +342,6 @@ function Nav() {
           <Link to="/" className="text-white text-[16px]">Home</Link>
           <Link to="/about" className="text-white text-[16px]">About us</Link>
           <Link to="/service" className="text-white text-[18px]">Services</Link>
-
-          {/* Mobile Courses Dropdown */}
           <div>
 
             <div

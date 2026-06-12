@@ -48,3 +48,10 @@
     animation-duration: 10s;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px; /* adjust based on navbar height */
+}

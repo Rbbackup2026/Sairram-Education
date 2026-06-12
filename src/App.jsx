@@ -28,6 +28,8 @@ import Blogdetails from "./Pages/Blogdetails";
 import NewsDetails from "./Pages/Newsdetails";
 import Career from "./Pages/Career";
 import Marquee from "./Components/Marquee";
+import WhatsappButton from "./Components/Whatsappbutton";
+import MBBSch from "./Pages/MBBSch";
 
 
 function ScrollToTop() {
@@ -49,6 +51,7 @@ function App() {
       <CanonicalTag/>
       <ScrollToTop /> 
       <Marquee />
+      <WhatsappButton />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
@@ -74,6 +77,7 @@ function App() {
         <Route path="/blog-details/:slug" element={<Blogdetails />} />   
         <Route path="/news-details/:slug" element={<NewsDetails />} />   
         <Route path="/career"  element={<Career />} />
+        <Route path="/mbbs-karnataka"  element={<MBBSch />} />
        </Routes>
     </Router>
     </>

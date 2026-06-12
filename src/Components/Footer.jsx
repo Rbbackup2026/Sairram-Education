@@ -48,6 +48,7 @@ across 80+ locations in India, supported by
     { name: "Contact Us", link: "/contact" },
     { name: "Blog", link: "/blog" },
     { name: "Privacy Policy", link: "/privacy-policy" },
+    { name: "Career", link: "/career" },
   ].map((item, index) => (
     <li key={index}>
       <Link
